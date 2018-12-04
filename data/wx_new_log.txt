@@ -1,0 +1,203 @@
+-----------2016-05-15 14:41:20-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 14:41:20-----------------支付成功
+
+
+
+-----------2016-05-15 14:41:20-----------------订单金额0.10
+
+
+
+-----------2016-05-15 14:41:36-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 14:41:36-----------------支付成功
+
+
+
+-----------2016-05-15 14:41:36-----------------订单金额0.10
+
+
+
+-----------2016-05-15 14:41:53-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 14:41:53-----------------支付成功
+
+
+
+-----------2016-05-15 14:41:53-----------------订单金额0.10
+
+
+
+-----------2016-05-15 14:42:24-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 14:42:24-----------------支付成功
+
+
+
+-----------2016-05-15 14:42:24-----------------订单金额0.10
+
+
+
+-----------2016-05-15 14:45:26-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 14:45:26-----------------支付成功
+
+
+
+-----------2016-05-15 14:45:26-----------------订单金额0.10
+
+
+
+-----------2016-05-15 15:15:29-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 15:15:29-----------------支付成功
+
+
+
+-----------2016-05-15 15:15:29-----------------订单金额0.10
+
+
+
+-----------2016-05-15 15:45:33-----------------传递过来的XML
+'<xml><appid><![CDATA[wxa1da0b715d809e7a]]></appid>
+<attach><![CDATA[212]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[10]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1298152201]]></mch_id>
+<nonce_str><![CDATA[u3en23leuz0lfmnej5mrkqerij9n53q6]]></nonce_str>
+<openid><![CDATA[oG4EswKet7ucm-YWGPpuqKB2Pels]]></openid>
+<out_trade_no><![CDATA[2016051582111]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[D8A739A00355238BCD57567857C215A2]]></sign>
+<time_end><![CDATA[20160515144120]]></time_end>
+<total_fee>10</total_fee>
+<trade_type><![CDATA[NATIVE]]></trade_type>
+<transaction_id><![CDATA[4007292001201605155880496885]]></transaction_id>
+</xml>'
+
+
+-----------2016-05-15 15:45:33-----------------支付成功
+
+
+
+-----------2016-05-15 15:45:33-----------------订单金额0.10
+
+
+
