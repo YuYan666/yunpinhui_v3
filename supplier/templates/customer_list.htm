@@ -1,0 +1,72 @@
+<!-- $Id: pre_sale_list.htm 14216 2015-02-10 02:27:21Z derek $ -->
+ {include file="pageheader.htm"} {insert_scripts files="../js/utils.js,listtable.js"}
+{insert_scripts files='jquery-1.6.2.min.js,chosen.jquery.min.js'}
+<form id="form1" method="post" action="customer.php" name="theForm">
+	<input type="hidden" id="act" name="act" value="post">
+	<div class="main-div">
+		<table id="group-table" cellspacing="1" cellpadding="3" width="100%">
+			<tr>
+				<td class="label">阿里云旺appkey</td>
+				<td>
+					<input type="text"  name="appkey" value="{$chat.appkey}" class="required" />
+				</td>
+			</tr>
+			<tr>
+				<td class="label">阿里云旺secretkey</td>
+				<td>
+					<input type="text" id="secretkey" name="secretkey" value="{$chat.secretkey}" class="required" />
+				</td>
+			</tr>
+			<tr>
+				<td class="label">阿里旺旺客服用户名</td>
+				<td>
+					<input type="text" id="touid" name="touid" value="{$chat.touid}" class="required" />
+				</td>
+			</tr>
+
+
+
+         <tr>
+				<td class="label">首次咨询自动回复内容</td>
+				<td>
+            
+			<textarea name="welcomeMsg" cols="80" rows="3">{$chat.welcomeMsg}</textarea>
+
+
+</td>
+			</tr>
+
+
+
+
+
+			
+			<tr>
+				<td class="label">&nbsp;</td>
+				<td>
+					
+					<input type="button" id="btn_submit" name="btn_submit" value="{$lang.button_submit}" class="button" />
+					
+				</td>
+			</tr>
+		</table>
+	</div>
+</form>
+<script language="JavaScript">{literal}
+
+$().ready(function(){
+	
+	
+	
+	$("#btn_submit").click(function(){
+		
+		$("#form1").submit();
+		return false;
+	});
+	
+	
+});
+
+
+</script>
+{include file="pagefooter.htm"} 

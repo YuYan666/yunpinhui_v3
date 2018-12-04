@@ -1,0 +1,112 @@
+{include file="pageheader.htm"}
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=mw7PaEkQLL1AsomPdtWOwhqTsm6n0AUY&s=1">
+</script>
+
+<style>
+    #allmap{ width: 800px; height: 400px; }
+</style>
+<div id="tabbody-div">
+    <form method="post" action="?act=post" id="form-edit" >
+        <table class="form-tb">
+            <tr>
+                <th class="tb-lab">地址：</th>
+                <td>
+                    <input type="text" id="address_info" size="50" value="{$shop_address}" />
+                    <input type="hidden" name="latitude" id="latitude" value="{$supplier.latitude}" />
+                    <input type="hidden" name="longitude" id="longitude" value="{$supplier.longitude}" />
+                    <input type="button" class="button" onclick="setPoint()"  value="地址解析"/>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <!-- <font color="#555">地址解析会将你输入的地址自动标注到地图上，但地址解析存在一定的偏差，为确保您地址的准确性请在解析后手动标注</font> -->
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <div id="allmap"></div> 
+                </td>
+            </tr>
+        </table>
+        <div class="button-div" style="margin-top: 10px;">
+            <input name="submit" type="submit" value="{$lang.button_submit}" class="button" />
+            <input name="reset" type="reset" value="{$lang.button_reset}" class="button" />
+        </div>
+    </form>
+</div>
+
+<script>
+{literal}
+    // 百度地图API功能
+    var ars = "{$shop_city}";
+
+    var map = new BMap.Map("allmap");
+    map.enableScrollWheelZoom();   //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+    map.centerAndZoom(ars, 16);
+
+    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    map.addControl(top_left_control);
+    map.addControl(top_left_navigation);
+
+    //单击获取点击的经纬度
+    map.addEventListener("click",function(e){
+        // alert(e.point.lng + "," + e.point.lat);
+        map.clearOverlays();
+        var marker = new BMap.Marker(new BMap.Point(e.point.lng, e.point.lat)); // 创建点
+        map.addOverlay(marker); 
+      
+        document.getElementById("latitude").value = e.point.lat;
+        document.getElementById("longitude").value = e.point.lng;
+    });
+
+    setTimeout(function(){
+        mapInit();
+    }, 2000);
+
+    // 添加地图标注
+    function mapInit(){
+        var latitude = document.getElementById("latitude").value;
+        var longitude = document.getElementById("longitude").value;
+        
+        if (latitude != '' && longitude != '') {
+            map.clearOverlays();
+            var point = new BMap.Point(longitude, latitude);    
+            map.centerAndZoom(point, 16);    
+            var marker = new BMap.Marker(point);        // 创建标注    
+            map.addOverlay(marker); 
+        } else {
+            setPoint();
+        }
+    }
+
+    // 地址解析
+    function setPoint() {
+        var ars = document.getElementById("address_info").value;
+
+        var myGeo = new BMap.Geocoder();
+
+        myGeo.getPoint(ars, function(point){
+            if (point) {
+                map.clearOverlays();
+                map.centerAndZoom(point, 16);
+                var marker = new BMap.Marker(point);        // 创建标注
+                map.addOverlay(marker);
+
+                document.getElementById("latitude").value = point.lat;
+                document.getElementById("longitude").value = point.lng;
+            }else{
+                alert("您的地址没有解析到结果!");
+            }
+        }, "{$shop_city}");
+    }
+
+{/literal}
+
+</script>
+
+{include file="pagefooter.htm"}
